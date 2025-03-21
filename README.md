@@ -1,7 +1,7 @@
 ### Descripción
-#####El siguiente programa permite visuaizar los algoritmos de ordenamiento, conocidos como Metodo de burbuja optimizado y seleccion, utilizando una interfaz que permita al usuario interactuar con los metodos
+El siguiente programa permite visuaizar los algoritmos de ordenamiento, conocidos como Metodo de burbuja optimizado y seleccion, utilizando una interfaz que permita al usuario interactuar con los metodos
 
-#### Principales caracteristias
+ Principales caracteristias
 - Creacion de numeros aletorios
 - Ordenamiento por burbuja
 - Ordenamiento por seleccion
@@ -9,23 +9,23 @@
 - Creacion de metodos visibles
 
 ### Librerias utilizadas
-- #####import tkinter as tk
+- import tkinter as tk
 ```python
 import tkinter as tk
 ```
 Esta libreria nos permite crear una interfz grafica que pueda ser visual y interactiva para el usuario.
-- #####from ttkbootstrap import Style
+- from ttkbootstrap import Style
 ```python
 from ttkbootstrap import Style
 ```
 Nos permite mejorar los acabados en la interfaz grafica
 
-- #####import random
+- import random
 ```python
 import random
 ```
 Esta libreria nos facilita la creacion de numeros aleatoreos .
-- #####import time
+- import time
 ```python
 import time
 ```
