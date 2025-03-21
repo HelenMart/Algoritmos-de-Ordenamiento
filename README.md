@@ -68,7 +68,7 @@ def barras(self):
             self.canvas.create_text((x0 + x1) // 2, y0 - 10, text=str(value), fill="white", font=("Arial", 10, "bold"))
 ```
 ## Funciones principales
-####Ordenamiento por burbuja 
+Ordenamiento por burbuja 
 ```python
 def burbuja(arr, visualize=None):
         n = len(arr)
@@ -85,7 +85,7 @@ def burbuja(arr, visualize=None):
 
 ```
 
-####Ordenamiento por seleccion
+Ordenamiento por seleccion
 ```python
 def seleccion(arr, visualize=None):
         n = len(arr) 
@@ -99,7 +99,7 @@ def seleccion(arr, visualize=None):
                 visualize(arr)
 
 ```
-####Creacion de numeros aleatorios
+Creacion de numeros aleatorios
 ```python
 def GenerararLista(self):
         self.array = [random.randint(1, 100) for _ in range(30)]
